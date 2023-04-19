@@ -56,7 +56,7 @@
 	--black: #000000;
 	--text-body: #374151;
 	--slate-400: rgb(148 163 184);
-	
+
 }
 
 body, html {
@@ -64,3 +64,7 @@ body, html {
 	max-width: 100dvw;
 	overflow-x: hidden;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
